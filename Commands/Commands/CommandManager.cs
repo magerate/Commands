@@ -63,7 +63,6 @@ namespace Cession.Commands
             {
                 command = new MacroCommand (_commandQueue);
                 _commandQueue.Clear ();
-
             }
             Push (command);
             OnCommit (new CommandCommitedEventArgs(command,CommandCommitType.Execute));
