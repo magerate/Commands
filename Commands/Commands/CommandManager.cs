@@ -106,10 +106,13 @@ namespace Cession.Commands
         public void ExecuteQueue (Command command)
         {
             ClearRedoStack ();
-            //should queue command before execute
-            //make sure side effect command is queue after primary command queued
             _commandQueue.Enqueue (command);
             command.Execute ();
+        }
+
+        public void Queue(Command command)
+        {
+            _commandQueue.Enqueue (command);
         }
 
         public void Undo ()
