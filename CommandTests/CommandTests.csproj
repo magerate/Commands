@@ -47,7 +47,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Cession.Commands.csproj">
+    <ProjectReference Include="..\Commands\Cession.Commands.csproj">
       <Project>{363212C1-A128-4F62-84F4-409879D7F1F1}</Project>
       <Name>Cession.Commands</Name>
     </ProjectReference>

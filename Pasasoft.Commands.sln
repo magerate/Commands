@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandTests", "CommandTests\CommandTests.csproj", "{8D2A2219-77F5-4819-A371-4E9387E35DEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cession.Commands", "Common\Cession.Commands.csproj", "{363212C1-A128-4F62-84F4-409879D7F1F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cession.Commands", "Commands\Cession.Commands.csproj", "{363212C1-A128-4F62-84F4-409879D7F1F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
