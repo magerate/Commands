@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandTests", "CommandTests\CommandTests.csproj", "{8D2A2219-77F5-4819-A371-4E9387E35DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cession.Commands", "Common\Cession.Commands.csproj", "{363212C1-A128-4F62-84F4-409879D7F1F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363212C1-A128-4F62-84F4-409879D7F1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363212C1-A128-4F62-84F4-409879D7F1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363212C1-A128-4F62-84F4-409879D7F1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363212C1-A128-4F62-84F4-409879D7F1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2A2219-77F5-4819-A371-4E9387E35DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2A2219-77F5-4819-A371-4E9387E35DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2A2219-77F5-4819-A371-4E9387E35DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2A2219-77F5-4819-A371-4E9387E35DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
